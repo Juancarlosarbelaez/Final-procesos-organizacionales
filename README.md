@@ -20,6 +20,11 @@ This repository contains a comprehensive Jupyter notebook for data science proje
 
 1. Install required dependencies:
 ```bash
+pip install -r requirements.txt
+```
+
+Or install individually:
+```bash
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 ```
 
