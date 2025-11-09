@@ -58,3 +58,8 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Exceptions for processed data 
+!data/
+!data/datos_cleaned.csv
+
