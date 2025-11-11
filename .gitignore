@@ -63,3 +63,5 @@ Thumbs.db
 !data/
 !data/datos_cleaned.csv
 
+# No permitir Parquet grandes en el repo (usar LFS o artefactos externos)
+
