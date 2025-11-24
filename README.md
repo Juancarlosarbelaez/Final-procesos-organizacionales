@@ -56,7 +56,7 @@ Final-procesos-organizacionales/
 ### 1. **Estrategia Corporativa**
 Análisis del problema de negocio y definición de estrategia de transformación digital basada en cuatro pilares: rediseño estructural, transformación digital, sostenibilidad e innovación, y crecimiento rentable.
 
-📄 **Ver documento completo**: [`documentacion/Definición del problema, necesidad del negocio y estrategia.pdf`](documentacion/Definicion_Problema_Estrategia.pdf.pdf)
+📄 **Ver documento completo**: [`documentacion/Definición del problema, necesidad del negocio y estrategia.pdf`](documentacion/Definicion_Problema_Estrategia.pdf)
 
 ---
 
