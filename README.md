@@ -56,7 +56,7 @@ Final-procesos-organizacionales/
 ### 1. **Estrategia Corporativa**
 Análisis del problema de negocio y definición de estrategia de transformación digital basada en cuatro pilares: rediseño estructural, transformación digital, sostenibilidad e innovación, y crecimiento rentable.
 
-📄 **Ver documento completo**: [`documentacion/Definición del problema, necesidad del negocio y estrategia.pdf`](documentation/Definición%20del%20problema,%20necesidad%20del%20negocio%20y%20estrategia.pdf)
+📄 **Ver documento completo**: [`documentacion/Definición del problema, necesidad del negocio y estrategia.pdf`](documentacion/Definición%20del%20problema,%20necesidad%20del%20negocio%20y%20estrategia.pdf)
 
 ---
 
@@ -71,7 +71,7 @@ Diagramas de procesos clave del negocio utilizando notación BPMN 2.0:
 ### 3. **Arquitectura de Datos**
 Diseño técnico del pipeline de datos que incluye capas de ingesta, procesamiento, almacenamiento y consumo.
 
-📄 **Ver arquitectura**: [`documentacion/Pipeline_ArquitecturaDatosEcoModa.pdf`](documentation/Pipeline_ArquitecturaDatosEcoModa.pdf)
+📄 **Ver arquitectura**: [`documentacion/Pipeline_ArquitecturaDatosEcoModa.pdf`](documentacion/Pipeline_ArquitecturaDatosEcoModa.pdf)
 
 ---
 
@@ -81,7 +81,7 @@ Marco de gobierno que define:
 - Reglas de calidad (completitud, unicidad, rangos válidos)
 - Estándares de nomenclatura y formato
 
-📄 **Ver documento completo**: [`documentacion/Gobierno_Datos.pdf`](documentation/Gobierno_Datos.pdf)
+📄 **Ver documento completo**: [`documentacion/Gobierno_Datos.pdf`](documentacion/Gobierno_Datos.pdf)
 
 ---
 
