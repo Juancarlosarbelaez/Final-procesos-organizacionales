@@ -31,7 +31,7 @@ Desarrollo de una estrategia integral de datos para **Eco-Moda S.A.S.**, empresa
 Final-procesos-organizacionales/
 │
 ├── 📊 dashboard/                          # Dashboard de visualización
-│   └── 
+│   └── dashboard_ECOMODA.pbit             # Dashboard de Power BI
 │
 ├── 📦 data/                               # Datos procesados
 │   └── datos_cleaned.csv                 # Dataset limpio y normalizado
@@ -44,8 +44,7 @@ Final-procesos-organizacionales/
 │
 ├── 📓 notebooks/                          # Notebooks de análisis
 │   ├── Limpieza_datos_completos.ipynb    # 1. Limpieza y normalización
-│   ├── Pipeline_procesamiento.ipynb      # 2. Pipeline de procesamiento
-│   └── EDA_proyecto.ipynb                # 3. Análisis exploratorio
+│   └── EDA.ipynb                         # 2. Análisis exploratorio
 │
 ├── 📄 README.md                           # Este archivo
 └── 📋 requirements.txt                    # Dependencias Python
@@ -90,36 +89,43 @@ Marco de gobierno que define:
 Procesamiento y análisis exploratorio implementado en notebooks Python:
 
 #### Notebook 1: Limpieza de Datos
-- Carga de datos crudos
+- Carga de datos crudos: consolidación dataset
 - Aplicación de reglas de calidad
 - Normalización y estandarización
+  
 - **Ejecutar**: `notebooks/Limpieza_datos_completos.ipynb`
 
-#### Notebook 2: Pipeline de Procesamiento
-- Validaciones automáticas
-- Transformaciones de datos
-- Exportación de datos limpios
-- **Ejecutar**: `notebooks/Pipeline_procesamiento.ipynb`
-
-#### Notebook 3: Análisis Exploratorio (EDA)
+#### Notebook 2: Análisis Exploratorio (EDA)
 - Análisis descriptivo de ventas y clientes
+  **Análisis realizados**:
+- Estadísticas descriptivas y distribuciones
+- Detección de valores nulos y outliers
+- Análisis de correlaciones entre variables
+- Segmentación de clientes y productos
+- Identificación de patrones temporales
+  
 - **Ejecutar**: `notebooks/EDA_proyecto.ipynb`
 
 ---
 
 ### 6. **Dashboard de Visualización**
-Dashboard para toma de decisiones estratégicas.
+Dashboard interactivo desarrollado en **Microsoft Power BI** para la toma de decisiones estratégicas.
+**Características implementadas**:
+  1. Segmentación de clientes por estado de membresía (donut chart)
+  2. Análisis de productos por categoría y color (barras horizontales)
+  3. Preferencias por edad y color (líneas múltiples)
+  4. Tendencias temporales 2018-2022 (serie de tiempo)
 
-📊 **Ubicación**: `dashboard/`  
+📊 **Ubicación**: `dashboard/dashboard_ECOMODA.pbit`  
 
 ---
 
 ## 🛠️ Tecnologías Utilizadas
 
-- **Lenguaje**: Python 3.8+
-- **Análisis de Datos**: Pandas, NumPy
-- **Visualización**: Matplotlib, Seaborn
-- **Notebooks**: Jupyter
+- **Lenguajes y Frameworks**: Python 3.8+, PySpark
+- **Análisis y Procesamiento de Datos**: Pandas, NumPy, PySpark SQL
+- **Visualización**: Matplotlib, Seaborn, Microsoft Power BI
+- **Herramientas de Desarrollo**: Jupyter Notebook, VS Code
 - **Modelado de Procesos**: Bizagi Modeler (BPMN 2.0)
 - **Control de Versiones**: Git & GitHub
 
@@ -145,8 +151,14 @@ jupyter notebook
 
 **Orden de ejecución recomendado**:
 1. `Limpieza_datos_completos.ipynb`
-2. `Pipeline_procesamiento.ipynb`
-3. `EDA_proyecto.ipynb`
+2. `EDA_proyecto.ipynb`
+
+**Nota**: El Notebook 1 requiere PySpark para procesar los 3.25GB de datos eficientemente.
+
+### Paso 4: Visualizar el Dashboard
+1. Instalar Power BI Desktop: https://powerbi.microsoft.com/desktop/
+2. Abrir: `dashboard/dashboard_ECOMODA.pbix`
+3. Actualizar conexión de datos si es necesario
 
 ---
 
@@ -176,6 +188,6 @@ jupyter notebook
 **Universidad**: Universidad Pontificia Bolivariana  
 **Materia**: Procesos Organizacionales  
 **Docente**: María Victoria Valencia Arango  
-**Fecha de entrega**: Noviembre 20, 2024  
+**Fecha de entrega**: Noviembre 24, 2024  
 
 ---
