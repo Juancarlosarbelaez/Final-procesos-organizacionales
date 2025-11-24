@@ -37,7 +37,7 @@ Final-procesos-organizacionales/
 │   └── datos_cleaned.csv                 # Dataset limpio y normalizado
 │
 ├── 📚 documentacion/                      # Documentación completa del proyecto
-│   ├── Definición del problema, necesidad del negocio y estrategia.pdf
+│   ├── Definicion_Problema_Estrategia.pdf  # Definición del problema, necesidad del negocio y estrategia
 │   ├── Diagrama_BPMN.pdf                 # Procesos modelados en BPMN
 │   ├── Gobierno_Datos.pdf                # Roles, reglas y estándares
 │   └── Pipeline_ArquitecturaDatosEcoModa.pdf #Borrador arquitectura de datos
@@ -56,7 +56,7 @@ Final-procesos-organizacionales/
 ### 1. **Estrategia Corporativa**
 Análisis del problema de negocio y definición de estrategia de transformación digital basada en cuatro pilares: rediseño estructural, transformación digital, sostenibilidad e innovación, y crecimiento rentable.
 
-📄 **Ver documento completo**: [`documentacion/Definición del problema, necesidad del negocio y estrategia.pdf`](documentacion/Definición%20del%20problema,%20necesidad%20del%20negocio%20y%20estrategia.pdf)
+📄 **Ver documento completo**: [`documentacion/Definición del problema, necesidad del negocio y estrategia.pdf`](documentacion/Definicion_Problema_Estrategia.pdf.pdf)
 
 ---
 
